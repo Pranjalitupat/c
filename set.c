@@ -58,14 +58,13 @@ int main(){
     for(j=0;j<l2;j++){
     for(i=0;i<l1;i++){
         if(set2[j]==set1[i]){
-       
         setintersection[s]=set2[j];
-            
             s++;
+        
         }
         
 }
-    }
+}
 printf("\n");
 printf("\nset intersection\n");
 for(i=0;i<s;i++){
